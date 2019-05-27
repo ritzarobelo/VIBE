@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Condensed:400,700|Volkhov:400,400i,700i');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	font-size: 14px;
+	background-color: #000000;
+}
+header{
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url(../img/slider-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 650;
+}
+
+#hero p{
+	font-size: 18px;
+}
+
+.imgslides{
+	width: 50%;
+}
+
+.sliderpad{
+	padding-top: 15%;
+}
+
+.padtop{
+	padding-top: 8%;
+}
+
+.btn-rectangulo{
+	background-color: transparent;
+	border:2px solid #FFFFFF;
+	color: #FFFFFF;
+	border-radius:4;
+	padding: 10px 20px;
+	text-transform: lowercase;
+	font-weight: 600;
+}
+
+.btn-rectangulo:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#beauty{
+	border-bottom: 1px solid #ddd;
+}
+
+#beauty{
+	text-align: center;
+}
+
+.title{
+	font-size: 60px;
+	padding: 5%;
+	text-align: center;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+.sectionnews{
+	padding-bottom: 10%;
+}
+
+.subtitle{
+	font-size: 24px;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 5%;
+}
+
+.textspacing{
+	padding: 5% 0 0 0;
+}
+
+#scroll{
+	padding: 100px 0px;
+}
+
+#scroll .info-scroll{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#scroll .info-scroll h3{
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#scroll .info-scroll h4{
+	font-size: 33px;
+}
+
+#scroll .info-scroll p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.foto{
+	position: relative;
+	overflow: hidden;
+}
+.overlay{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 90%;
+	padding: 30px 20px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+	transform: translate(5%,0,0)
+}
+
+.foto:hover img{
+	transition: all 0.3s ease-in-out;
+	transform: scale(1.06);
+}
+
+.bg-over-blue{
+	background-color: rgba(3,46,77,0.80)
+}
+
+
+#logoforms .overlay{
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	z-index: 4;
+}
+
+.servicesi{
+	font-size: 30px;
+	padding: 18px;
+}
+
+#logoforms .infofoto{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,1.00);
+	z-index: 0;
+}
+
+
+#logoforms .foto:hover .overlay{
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+#encabezado{
+	background-color: #0c0c0c;
+	color: white;
+	padding: 50px 0px;
+}
+
+#encabezado h1{
+	font-size: 26px;
+}
+
+#content{
+	padding: 45px 0px;
+}
+
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: white;
+    border: 0 !important;
+}
+
+.info-scroll .fas{
+	font-size: 55px;
+	margin-bottom: 30px;
+}
+
+#logos{
+	background-color: #0c0c0c;
+	padding: 50px 0;
+}
+
+.titulo{
+	font-size: 40px;
+	margin-bottom: 20px;	
+}
+
+.titulo::after{
+	content: '';
+	height: 1px;
+	background-color: #fff;
+	width: 100px;
+	display: block;
+	margin-top: 20px;
+}
+
+.titulo span{
+	display: block;
+}
+#blog article:nth-child(1){
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#parallax{
+	background-image: url("../vibe/antonella.png");
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 210px 0;
+}
+
+#message{
+	padding: 30px 0;
+	text-align: center;
+}
+
+#message h2{
+	font-size: 25px;
+
+}
+#message h2 a{
+	margin-left: 30px;
+}
+
+#footer{
+	background-color: #0c0c0c;
+	padding: 40px 0;
+	
+}
+
+#footer h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#footer a{
+	color: #fff;
+}
+
+#footer a.hover{
+	color: #777;
+}
+
+#footer a,#copyright{
+	color: #fff;
+}
+
+#copyright{
+	padding: 25px 0;
+}
+
+
+
+#apps .subtitle{
+	color: white;
+	
+}
+
+#apps label{
+	color: white;
+}
+
